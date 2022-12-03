@@ -45,7 +45,7 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
   font-family: 'Noto Sans', sans-serif;
 }
 

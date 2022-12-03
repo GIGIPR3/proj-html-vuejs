@@ -5,8 +5,8 @@
         <GreenBar/>
 
 <!--         <NavBar/> -->
-        <!-- <JumboTron/> -->
-        <SassoSass/>
+<!--         <JumboTron/> -->
+        <JumboComp/>
     </div>
 
 </template>
@@ -16,7 +16,7 @@
 
 import GreenBar from '../components/HComp/GreenBar.vue'
 /* import JumboTron from '../components/HComp/JumboTron.vue' */
-import SassoSass from '../components/HComp/SassoSass.vue'
+import JumboComp from '../components/HComp/JumboComp.vue'
 
 
 
@@ -25,8 +25,8 @@ export default {
   components: {
     GreenBar,
 /*     NavBar, */
-    /* JumboTron, */
-    SassoSass
+/*     JumboTron */
+    JumboComp
   }
 }
 
