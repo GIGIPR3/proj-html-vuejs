@@ -8,6 +8,9 @@
 
         <JumboSecond/>
 
+        <TestimonialComp/>
+
+
     </div>
 
 
@@ -19,13 +22,15 @@
 import FirstComp from '../components/MComp/FirstComp.vue'
 import CardComp from '../components/MComp/CardComp.vue'
 import JumboSecond from '../components/MComp/JumboSecond.vue'
+import TestimonialComp from '../components/MComp/TestimonialComp.vue'
 
 export default {
     name: 'MainComp',
     components: {
         FirstComp,
         CardComp,
-        JumboSecond
+        JumboSecond,
+        TestimonialComp
     }
     
 }

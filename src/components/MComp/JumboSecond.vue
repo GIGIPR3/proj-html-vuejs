@@ -46,11 +46,15 @@ export default {
     background-image: url(../../assets/img/avada-movers-movewithease-background-new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    
 }
 
 .contenitore{
-    
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .card {
