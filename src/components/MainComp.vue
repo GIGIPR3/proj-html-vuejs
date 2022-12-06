@@ -6,7 +6,7 @@
 
         <CardComp/>
 
-
+        <JumboSecond/>
 
     </div>
 
@@ -18,12 +18,14 @@
 
 import FirstComp from '../components/MComp/FirstComp.vue'
 import CardComp from '../components/MComp/CardComp.vue'
+import JumboSecond from '../components/MComp/JumboSecond.vue'
 
 export default {
     name: 'MainComp',
     components: {
         FirstComp,
-        CardComp
+        CardComp,
+        JumboSecond
     }
     
 }
