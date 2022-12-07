@@ -18,10 +18,10 @@
 
         <div class="card">
 
-            <div class="foto"></div>
+            <div class="foto1"></div>
 
             <div class="titleB">
-                John Doe
+                Jane Doe
             </div>
 
             <div class="text">
@@ -32,10 +32,12 @@
 
         <div class="card">
 
-            <div class="foto"></div>
+            <div class="foto2"></div>
 
             <div class="titleB">
-                John Doe
+                John Smith
+
+
             </div>
 
             <div class="text">
@@ -65,8 +67,33 @@ export default {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: aqua;
+    background-image: url(../../assets/img/avada-movers-johndoe-final-400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.foto1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+    background-image: url(../../assets/img/avada-movers-janedoe-final-400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+    background-image: url(../../assets/img/avada-movers-johnsmith-final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 
 .card {
     display: flex;

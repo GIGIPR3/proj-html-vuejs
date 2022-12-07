@@ -10,6 +10,7 @@
 
         <TestimonialComp/>
 
+        <WoodComp/>
 
     </div>
 
@@ -23,6 +24,7 @@ import FirstComp from '../components/MComp/FirstComp.vue'
 import CardComp from '../components/MComp/CardComp.vue'
 import JumboSecond from '../components/MComp/JumboSecond.vue'
 import TestimonialComp from '../components/MComp/TestimonialComp.vue'
+import WoodComp from '../components/MComp/WoodComp.vue'
 
 export default {
     name: 'MainComp',
@@ -30,7 +32,8 @@ export default {
         FirstComp,
         CardComp,
         JumboSecond,
-        TestimonialComp
+        TestimonialComp,
+        WoodComp
     }
     
 }
