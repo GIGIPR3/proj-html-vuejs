@@ -4,7 +4,7 @@
 
         <AboutComp/>
 
-
+        <FooterGreenBar/>
 
     </div>
 
@@ -16,12 +16,14 @@
 <script>
 
 import AboutComp from '../components/FComp/AboutComp.vue'
+import FooterGreenBar from '../components/FComp/FooterGreenBar.vue'
 
 
 export default {
     name: 'FooterComp',
     components: {
-        AboutComp
+        AboutComp,
+        FooterGreenBar
     }
 
 }
